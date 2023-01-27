@@ -27,7 +27,7 @@ app.UseDeveloperExceptionPage();
 app.UseStatusCodePages(); // Hatanın nerede olduğunu gösteren sayfa gösteriyor. 
 app.UseHttpsRedirection();
 app.UseStaticFiles();
-app.UseMvcWithDefaultRoute(); // Arka planda Controller/Action/{id} gibi ekler. 
+//app.UseMvcWithDefaultRoute(); // Arka planda Controller/Action/{id} gibi ekler. 
 
 app.UseRouting();
 
